@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="Teste">
+        <h1>CREATE</h1>
+        <form id="user-form">
+            <label for="user-name">Insira nome de usuário:</label>
+            <input id="user-name" type="text"><br><br>
+            <label for="user-email">Insira o email:</label>
+            <input id="user-email" type="text"><br><br>
+            <label for="user-password">Insira a senha:</label>
+            <input id="user-password" type="password"><br><br>
+            <button type="submit">Enviar</button>
+        </form><br><br>
+
+        <h1>GET</h1>
+        <form id="get-user-form">
+            <label for="get-user-id">Insira id do usuário desejado</label>
+            <input id="get-user-id" type="text">
+            <button type="submit">Buscar dados</button>
+        </form><br><br>
+
+
+        <h1>DELETE</h1>
+        <form id="delete-user-form">
+            <label for="delete-user-id">Insira id do usuário desejado</label>
+            <input id="delete-user-id" type="text">
+            <label for="delete-user-name">Insira o nome do usuário desejado</label>
+            <input id="delete-user-name" type="text">
+            <button type="submit">Deletar</button>
+        </form><br><br>
+
+
+        <h1>UPDATE</h1>
+        <form id="user-form_update">
+            <label for="update-user-getid">Insira id do usuário desejado</label>
+            <input id="update-user-getid" type="text"><br><br>
+            <label for="user-name-update">Insira nome de usuário:</label>
+            <input id="user-name-update" type="text"><br><br>
+            <label for="user-email-update">Insira o email:</label>
+            <input id="user-email-update" type="text"><br><br>
+            <label for="user-password-update">Insira a senha:</label>
+            <input id="user-password-update" type="password"><br><br>
+            <button type="submit">Enviar</button>
+        </form> <br><br>
+
+        <!--
+        <form id="search-user-by-name-form">
+            <label for="search-user-name">Buscar usuário por nome (parcial):</label>
+            <input id="search-user-name" type="text">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <ul id="search-results"></ul>
+        -->
+    </div>
+    <script defer src="js/script1.js"></script>
+</body>
+</html>
